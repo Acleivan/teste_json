@@ -12,7 +12,7 @@
             $.getJSON('_json/produtos.json', function(data) {
                 $.each(data, function(i, valor) {
                 
-                // ATENTAR PARA PONTUAÇÃO. apos o valor na função inserir o . dadao do intem
+                // ATENTAR PARA PONTUAÇÃO. apos o valor na função, inserir " . " + nome do item
                 console.log(valor.nomeproduto);
                 });
             });
